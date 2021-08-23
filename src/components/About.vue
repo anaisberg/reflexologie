@@ -6,7 +6,7 @@
     <!-- End .about_image -->
 
     <div class="description">
-      <h3 class="name">Adriano Smith &amp; Photographer</h3>
+      <h3 class="name">Simone Marck &amp; Réflexologue</h3>
       <div class="description_inner">
         <div class="left">
           <p>

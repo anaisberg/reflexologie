@@ -9,7 +9,7 @@
       </div>
       <!-- End .avatar -->
       <div class="details">
-        <h3 class="name">Adriano Smith</h3>
+        <h3 class="name">Simone Marck</h3>
         <p class="job">
           Creative Photographer based in New York and happy to travel all over
           Europe to capture photos.

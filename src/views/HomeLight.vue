@@ -60,7 +60,7 @@
         </div>
         <div class="copyright">
           <p>
-            &copy; {{ new Date().getFullYear() }} Tokyo VueJS<br />Created by
+            &copy; {{ new Date().getFullYear() }} Simone Marck<br />Created by
             <a
               href="https://themeforest.net/user/ib-themes"
               target="_blank"

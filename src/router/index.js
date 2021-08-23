@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import NotFound from '../views/NotFound.vue'
-import Preview from '../views/Preview.vue'
-
 
 Vue.use(VueRouter)
 
@@ -13,9 +11,10 @@ const routes = [
     path: "/",
     name: "Preview",
     meta: {
-      title: 'Preview'
+      title: 'Home Light'
     },
-    component: Preview,
+    component: () =>
+      import("../views/HomeLight.vue"),
   },
   {
     path: "/home-light",
@@ -60,7 +59,7 @@ const router = new VueRouter({
 
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
-    document.title = to.meta.title + ' | Tokyo - Personal Portfolio VuejS template';
+    document.title = to.meta.title + ' | Simone Marck - Réflexologue plantaire';
   }
 });
 
