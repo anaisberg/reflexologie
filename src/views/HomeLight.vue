@@ -92,14 +92,7 @@
             &copy; {{ new Date().getFullYear() }} Simone Marck
             <br />2 rue de la Trinité, 
             <br />67190 Mutzig
-            <br />Created by
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ib-Themes
-            </a>
+            <br />02 13 37 64 66
           </p>
         </div>
         <!-- End copyright -->
@@ -137,10 +130,6 @@
             </div>
             <!-- End Portfolio tabcontent -->
             <div v-if="activetab === 7" class="tabcontent">
-              <News />
-            </div>
-            <!-- End News tabcontent -->
-            <div v-if="activetab === 8" class="tabcontent">
               <Contact />
             </div>
             <!-- End Contact tabcontent -->
@@ -156,8 +145,7 @@
   import Contact from "../views/Contact";
   import Home from "../views/Home";
   import FAQ from "../views/FAQ";
-  import Hakim from "../views/Hakim"
-  import News from "../views/News";
+  import Hakim from "../views/Hakim";
   import Reflexologie from "../views/Reflexologie";
   import Relaxation from "../views/Relaxation";
   import Portfolio from "../views/Portfolio";
@@ -167,7 +155,6 @@
       Home,
       Hakim,
       Portfolio,
-      News,
       Reflexologie,
       Relaxation,
       Contact,

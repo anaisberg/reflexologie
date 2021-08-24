@@ -9,7 +9,7 @@
       </div>
     </div>
 
- <div class="tokyo_tm_modalbox_news">
+    <div class="tokyo_tm_modalbox_news">
   <div class="image">
     <img src="../assets/img/thumbs/4-3.jpg" alt="tumb" />
     <div class="main" :style="{ backgroundImage: 'url(' + popup1 + ')' }"></div>
@@ -59,7 +59,7 @@
     <!-- END DESCRIPTION -->
                              
   </div>
-</div>
+    </div>
 
     <ul class="tokyo_tm_news_inner">
       <li>
