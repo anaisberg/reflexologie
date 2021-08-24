@@ -1,191 +1,35 @@
 <template>
   <div class="FAQ">
-    <div class="about_image">
-      <img src="../assets/img/slider/1.jpg" alt="FAQ" />
+    <div class="FAQ_title title_flex left">
+      <span>FOIRE AUX QUESTIONS</span>
     </div>
-    <!-- End .about_image -->
 
-    <Question :answer="'Ceci est la réponse'" :question="'Quelle est la question ?'" />
+    <Question :question="'Quels sont les tarifs pratiqués ?'" 
+              :answer1="'1 séance de réflexologie plantaire : 35€, ' +  
+              '1 massage Hakim : 40€, ' + 
+              '1 séance de relaxation : 20€'" />
+    <Question :question="'Les séances sont-elles remboursées ?'" 
+              :answer1="'Le remboursement des séances de réflexologie est possible selon votre mutuelle (voir votre contrat).'" />
+    <Question :question="'Quelle est la durée d\'une séance ?'" 
+              :answer1="'Une séance de réflexologie dure 45 minutes,' + 
+                      'auxquelles il faut ajouter le temps de faire connaissance et le temps de s\'installer.'" 
+              :answer2="'Massage Hakim : le massage dure environ 25 minutes.'" 
+              :answer3="'Relaxation : la séance varie entre 20 et 30 minutes.'"/>
+    <Question :question="'Peut-on offrir des séances ?'" 
+              :answer1="'Vous avez la possibilité de prendre des bons cadeaux, que vous pouvez offrir aux anniversaires, ' +
+                      'à la fête des mères... Pour faire plaisir et se faire plaisir'" />
+    <Question :question="'Quels sont les produits utilisés ?'" 
+              :answer1="'Ce sont des huiles bio. Je prépare ma propre huile pour le massage Hakim'"
+              :answer2="'En réflexologie, je fais usage d\'huiles différentes selon les besoins.'" />
 
-    <!-- Start Modalbox -->
-    <transition name="fade">
-      <!-- Modal -->
-      <div
-        :class="{ 'modal-mask': isActive }"
-        id="modal"
-        @click="closeModal"
-        v-if="isVisible"
-      >
-        <div
-          class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-user"
-          @click.stop
-        >
-          <div class="modal-content">
-            <div class="tokyo_tm_modalbox_about">
-              <div class="close" @click="closeModal">
-                <img
-                  class="svg"
-                  src="../assets/img/svg/cancel.svg"
-                  alt="cancel-img"
-                />
-              </div>
-              <!-- End .close -->
-              <div class="my_box">
-                <div class="left">
-                  <div class="about_title">
-                    <h3>Photography Skills</h3>
-                  </div>
-                  <!-- End .abut_title -->
-                  <div class="tokyo_progress">
-                    <div class="progress_inner">
-                      <span
-                        ><span class="label">Wedding Photography</span
-                        ><span class="number">95%</span></span
-                      >
-                      <div class="background">
-                        <div class="bar">
-                          <div class="bar_in" style="width:95%"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End progress_inner -->
-                    <div class="progress_inner">
-                      <span
-                        ><span class="label">Lifestyle Photography</span
-                        ><span class="number">80%</span></span
-                      >
-                      <div class="background">
-                        <div class="bar">
-                          <div class="bar_in" style="width:80%"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End progress_inner -->
-                    <div class="progress_inner">
-                      <span
-                        ><span class="label">Family Photography</span
-                        ><span class="number">90%</span></span
-                      >
-                      <div class="background">
-                        <div class="bar">
-                          <div class="bar_in" style="width:90%"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End progress_inner -->
-                  </div>
-                  <!-- End .tokyo_progress -->
-                </div>
-                <!-- End .left -->
-                <div class="right">
-                  <div class="about_title">
-                    <h3>Language Skills</h3>
-                  </div>
-                  <div class="tokyo_progress">
-                    <div class="progress_inner">
-                      <span
-                        ><span class="label">English</span
-                        ><span class="number">95%</span></span
-                      >
-                      <div class="background">
-                        <div class="bar">
-                          <div class="bar_in" style="width:95%"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="progress_inner">
-                      <span
-                        ><span class="label">Japanese</span
-                        ><span class="number">90%</span></span
-                      >
-                      <div class="background">
-                        <div class="bar">
-                          <div class="bar_in" style="width:90%"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="progress_inner">
-                      <span
-                        ><span class="label">Arabian</span
-                        ><span class="number">85%</span></span
-                      >
-                      <div class="background">
-                        <div class="bar">
-                          <div class="bar_in" style="width:85%"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End .right -->
-              </div>
-              <div class="counter">
-                <div class="about_title">
-                  <h3>Fun Facts</h3>
-                </div>
-                <ul>
-                  <li>
-                    <div class="list_inner">
-                      <h3>777+</h3>
-                      <span>Projects Completed</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="list_inner">
-                      <h3>9K+</h3>
-                      <span>Lines of Code</span>
-                    </div>
-                  </li>
-                </ul>
-                <!-- End ul -->
-              </div>
-              <!-- End .counter -->
-              <div class="partners">
-                <div class="about_title">
-                  <h3>Our Partners</h3>
-                </div>
-                <Brand />
-              </div>
-              <!-- End .partner -->
-            </div>
-            <!-- End .tokyo_tm_modalbox_about -->
-          </div>
-        </div>
-      </div>
-    </transition>
-    <!-- End Modalbox -->
   </div>
 </template>
 
 <script>
-import Brand from "../components/Brand";
 import Question from "../components/Question.vue"
 export default {
   components: {
-    Brand,
     Question,
-  },
-  data() {
-    return {
-      isActive: false,
-      isVisible: false,
-    };
-  },
-  methods: {
-    showModal: function() {
-      this.isActive = true;
-      this.isVisible = true;
-    },
-    closeModal: function() {
-      this.isActive = false;
-      this.isVisible = false;
-    },
   },
 };
 </script>

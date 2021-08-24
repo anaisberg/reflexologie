@@ -2,7 +2,13 @@
   <div class="description">
       <h3 class="question">{{ question }}</h3>
       <div class="answer_inner">
-            {{ answer }}
+            {{ answer1 }}
+      </div> 
+      <div v-if="answer2" class="answer_inner">
+            {{ answer2 }}
+      </div> 
+      <div v-if="answer3" class="answer_inner">
+            {{ answer3 }}
       </div> 
     </div>
 </template>
@@ -17,7 +23,9 @@
     },
     props: {
         question: String,
-        answer: String,
+        answer1: String,
+        answer2: String,
+        answer3: String,
     },
   };
 </script>
