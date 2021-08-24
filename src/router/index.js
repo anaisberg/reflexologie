@@ -26,16 +26,6 @@ const routes = [
       import("../views/HomeLight.vue"),
   },
   {
-    path: "/home-dark",
-    name: "HomeDark",
-    meta: {
-      title: 'Home Dark'
-    },
-    component: () =>
-      import("../views/HomeDark.vue"),
-  },
-
-  {
     path: '*',
     name: NotFound,
     meta: {

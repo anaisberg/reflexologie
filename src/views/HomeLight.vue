@@ -26,10 +26,14 @@
             v-on:click="activetab = 2"
             :class="[activetab === 2 ? 'active' : '']"
           >
-            <img class="svg" src="../assets/img/svg/avatar.svg" alt="avatar" />
-            <span class="menu_content">A propos</span></a
+            <img
+              class="svg"
+              src="../assets/img/svg/briefcase.svg"
+              alt="briefcase"
+            />
+            <span class="menu_content">Réflexologie plantaire</span></a
           >
-          <!-- End About -->
+          <!-- End Reflexologie -->
           <a
             v-on:click="activetab = 3"
             :class="[activetab === 3 ? 'active' : '']"
@@ -39,27 +43,44 @@
               src="../assets/img/svg/briefcase.svg"
               alt="briefcase"
             />
-            <span class="menu_content">En pratique</span></a
+            <span class="menu_content">Massage Hakim</span></a
           >
-          <!-- End Portfolio -->
+          <!-- End Hakim -->
           <a
             v-on:click="activetab = 4"
             :class="[activetab === 4 ? 'active' : '']"
+          >
+            <img
+              class="svg"
+              src="../assets/img/svg/briefcase.svg"
+              alt="briefcase"
+            />
+            <span class="menu_content">Relaxation</span></a
+          >
+          <!-- End Relaxation -->
+          <a
+            v-on:click="activetab = 5"
+            :class="[activetab === 5 ? 'active' : '']"
+          >
+            <img
+              class="svg"
+              src="../assets/img/svg/briefcase.svg"
+              alt="briefcase"
+            />
+            <span class="menu_content">En pratique</span></a
+          >
+          <!-- End Pratique -->
+          <a
+            v-on:click="activetab = 6"
+            :class="[activetab === 6 ? 'active' : '']"
           >
             <img class="svg" src="../assets/img/svg/avatar.svg" alt="avatar" />
             <span class="menu_content">Questions - Réponses</span></a
           >
           <!-- End Answers -->
           <a
-            v-on:click="activetab = 5"
-            :class="[activetab === 5 ? 'active' : '']"
-            ><img class="svg" src="../assets/img/svg/paper.svg" alt="paper" />
-            <span class="menu_content">News</span></a
-          >
-          <!-- End News -->
-          <a
-            v-on:click="activetab = 6"
-            :class="[activetab === 6 ? 'active' : '']"
+            v-on:click="activetab = 7"
+            :class="[activetab === 7 ? 'active' : '']"
           >
             <img class="svg" src="../assets/img/svg/mail.svg" alt="mail" />
             <span class="menu_content"> Contactez-moi</span></a
@@ -96,22 +117,30 @@
             </div>
             <!-- End Home tabcontent -->
             <div v-if="activetab === 2" class="tabcontent">
-              <About />
+              <Reflexologie />
             </div>
-            <!-- End About tabcontent -->
+            <!-- End Reflexologie tabcontent  -->
             <div v-if="activetab === 3" class="tabcontent">
+              <Hakim />
+            </div>
+            <!-- End Hakim tabcontent  -->
+            <div v-if="activetab === 4" class="tabcontent">
+              <Relaxation />
+            </div>
+            <!-- End Relaxation tabcontent  -->
+            <div v-if="activetab === 5" class="tabcontent">
               <Portfolio />
             </div>
             <!-- End Answers tabcontent  -->
-            <div v-if="activetab === 4" class="tabcontent">
+            <div v-if="activetab === 6" class="tabcontent">
               <FAQ />
             </div>
             <!-- End Portfolio tabcontent -->
-            <div v-if="activetab === 5" class="tabcontent">
+            <div v-if="activetab === 7" class="tabcontent">
               <News />
             </div>
             <!-- End News tabcontent -->
-            <div v-if="activetab === 6" class="tabcontent">
+            <div v-if="activetab === 8" class="tabcontent">
               <Contact />
             </div>
             <!-- End Contact tabcontent -->
@@ -124,19 +153,23 @@
 </template>
 
 <script>
-  import Home from "../components/Home";
-  import About from "../components/About";
-  import FAQ from "../components/FAQ"
-  import Portfolio from "../components/Portfolio";
-  import News from "../components/News";
-  import Contact from "../components/Contact";
+  import Contact from "../views/Contact";
+  import Home from "../views/Home";
+  import FAQ from "../views/FAQ";
+  import Hakim from "../views/Hakim"
+  import News from "../views/News";
+  import Reflexologie from "../views/Reflexologie";
+  import Relaxation from "../views/Relaxation";
+  import Portfolio from "../views/Portfolio";
   export default {
     components: {
-      Home,
-      About,
       FAQ,
+      Home,
+      Hakim,
       Portfolio,
       News,
+      Reflexologie,
+      Relaxation,
       Contact,
     },
     data() {

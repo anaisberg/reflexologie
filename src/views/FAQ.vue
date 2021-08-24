@@ -164,8 +164,8 @@
 </template>
 
 <script>
-import Brand from "./Brand";
-import Question from "./Question.vue"
+import Brand from "../components/Brand";
+import Question from "../components/Question.vue"
 export default {
   components: {
     Brand,
