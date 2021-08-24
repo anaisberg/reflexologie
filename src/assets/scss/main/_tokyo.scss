@@ -531,6 +531,41 @@ h6 {
 }
 
 /*---------------------------------------------------*/
+/*	Contact
+/*---------------------------------------------------*/
+
+.contact_title {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+.contact_title .title_flex {
+  width: 100%;
+  height: auto;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contact_title span {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.04);
+  text-transform: uppercase;
+  padding: 4px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #333;
+  font-family: "Montserrat";
+  letter-spacing: 0px;
+  margin-bottom: 15px;
+}
+.contact_title h3 {
+  font-weight: 800;
+  font-family: "Montserrat";
+}
+
+/*---------------------------------------------------*/
 /*	05) TOKYO ABOUT
 /*---------------------------------------------------*/
 
