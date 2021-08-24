@@ -19,7 +19,7 @@
               src="../assets/img/svg/home-run.svg"
               alt="homerun"
             />
-            <span class="menu_content">Home</span></a
+            <span class="menu_content">Accueil</span></a
           >
           <!-- End Home -->
           <a
@@ -27,7 +27,7 @@
             :class="[activetab === 2 ? 'active' : '']"
           >
             <img class="svg" src="../assets/img/svg/avatar.svg" alt="avatar" />
-            <span class="menu_content">About</span></a
+            <span class="menu_content">A propos</span></a
           >
           <!-- End About -->
           <a
@@ -39,28 +39,39 @@
               src="../assets/img/svg/briefcase.svg"
               alt="briefcase"
             />
-            <span class="menu_content">Portfolio</span></a
+            <span class="menu_content">En pratique</span></a
           >
           <!-- End Portfolio -->
           <a
             v-on:click="activetab = 4"
             :class="[activetab === 4 ? 'active' : '']"
+          >
+            <img class="svg" src="../assets/img/svg/avatar.svg" alt="avatar" />
+            <span class="menu_content">Questions - Réponses</span></a
+          >
+          <!-- End Answers -->
+          <a
+            v-on:click="activetab = 5"
+            :class="[activetab === 5 ? 'active' : '']"
             ><img class="svg" src="../assets/img/svg/paper.svg" alt="paper" />
             <span class="menu_content">News</span></a
           >
           <!-- End News -->
           <a
-            v-on:click="activetab = 5"
-            :class="[activetab === 5 ? 'active' : '']"
+            v-on:click="activetab = 6"
+            :class="[activetab === 6 ? 'active' : '']"
           >
             <img class="svg" src="../assets/img/svg/mail.svg" alt="mail" />
-            <span class="menu_content"> Contact</span></a
+            <span class="menu_content"> Contactez-moi</span></a
           >
           <!-- End Contact -->
         </div>
         <div class="copyright">
           <p>
-            &copy; {{ new Date().getFullYear() }} Simone Marck<br />Created by
+            &copy; {{ new Date().getFullYear() }} Simone Marck
+            <br />2 rue de la Trinité, 
+            <br />67190 Mutzig
+            <br />Created by
             <a
               href="https://themeforest.net/user/ib-themes"
               target="_blank"
@@ -87,16 +98,20 @@
             <div v-if="activetab === 2" class="tabcontent">
               <About />
             </div>
-            <!-- End About tabcontent  -->
+            <!-- End About tabcontent -->
             <div v-if="activetab === 3" class="tabcontent">
               <Portfolio />
             </div>
-            <!-- End Portfolio tabcontent -->
+            <!-- End Answers tabcontent  -->
             <div v-if="activetab === 4" class="tabcontent">
+              <FAQ />
+            </div>
+            <!-- End Portfolio tabcontent -->
+            <div v-if="activetab === 5" class="tabcontent">
               <News />
             </div>
             <!-- End News tabcontent -->
-            <div v-if="activetab === 5" class="tabcontent">
+            <div v-if="activetab === 6" class="tabcontent">
               <Contact />
             </div>
             <!-- End Contact tabcontent -->
@@ -111,6 +126,7 @@
 <script>
   import Home from "../components/Home";
   import About from "../components/About";
+  import FAQ from "../components/FAQ"
   import Portfolio from "../components/Portfolio";
   import News from "../components/News";
   import Contact from "../components/Contact";
@@ -118,6 +134,7 @@
     components: {
       Home,
       About,
+      FAQ,
       Portfolio,
       News,
       Contact,

@@ -476,6 +476,34 @@ h6 {
 }
 
 /*---------------------------------------------------*/
+/*	FAQ
+/*---------------------------------------------------*/
+
+.FAQ {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  padding: 100px 0px 100px 0px;
+}
+.FAQ .description {
+  width: 100%;
+  height: auto;
+  clear: both;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.FAQ .description .question {
+  font-weight: 700;
+  font-size: 22px;
+}
+.FAQ .answer_inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*---------------------------------------------------*/
 /*	05) TOKYO ABOUT
 /*---------------------------------------------------*/
 
@@ -507,6 +535,7 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+
 .tokyo_tm_about .description .left {
   width: 55%;
   padding-right: 50px;
