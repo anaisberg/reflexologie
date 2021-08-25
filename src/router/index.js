@@ -11,7 +11,7 @@ const routes = [
     path: "/",
     name: "Preview",
     meta: {
-      title: 'Home Light'
+      title: 'Accueil'
     },
     component: () =>
       import("../views/HomeLight.vue"),
@@ -20,7 +20,7 @@ const routes = [
     path: "/home-light",
     name: "HomeLight",
     meta: {
-      title: 'Home Light'
+      title: 'Accueil'
     },
     component: () =>
       import("../views/HomeLight.vue"),
@@ -49,7 +49,7 @@ const router = new VueRouter({
 
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
-    document.title = to.meta.title + ' | Simone Marck - Réflexologue plantaire';
+    document.title = 'Simone Marck - Réflexologue plantaire';
   }
 });
 
