@@ -50,9 +50,9 @@
           <p>
             Pretend everything is new and that you haven’t seen it frsegsergstrtrhzrsth
           </p>
-          <div class="image">
-                <img src="../assets/img/hist1.jpg" alt="thumb" />
-              </div>
+          <div  v-bind:style="{'text-align': 'center'}" class="image">
+            <img v-bind:style="styleBanner" src="../assets/img/hist1.jpg" alt="thumb" />
+          </div>
           <p>
             Pretend everything is new and that you haven’t seen it
           </p>       
@@ -88,6 +88,10 @@ export default {
       isVisible2: false,
       isVisible3: false,
       isVisible4: false,
+      styleBanner: {
+        maxHeight: '200px',
+        fontSize: '13px'
+      }
     };
   },
   methods: {
