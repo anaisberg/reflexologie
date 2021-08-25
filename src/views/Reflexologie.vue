@@ -50,6 +50,9 @@
           <p>
             Pretend everything is new and that you haven’t seen it frsegsergstrtrhzrsth
           </p>
+          <div class="image">
+                <img src="../assets/img/hist1.jpg" alt="thumb" />
+              </div>
           <p>
             Pretend everything is new and that you haven’t seen it
           </p>       
