@@ -9,7 +9,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: "/",
-    name: "Preview",
+    name: "Accueil",
     meta: {
       title: 'Accueil'
     },
@@ -29,9 +29,9 @@ const routes = [
     path: '*',
     name: NotFound,
     meta: {
-      title: '404'
+      title: 'Accueil'
     },
-    component: ()=> import("../views/NotFound.vue")
+    component: ()=> import("../views/HomeLight.vue")
   }
 ];
 const router = new VueRouter({

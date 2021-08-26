@@ -5,7 +5,7 @@
       <div class="leftpart_inner">
         <div class="logo">
           <router-link to="/"
-            ><img src="../assets/img/logo/dark.png" alt=""
+            ><img src="../assets/img/logo/logo.png" alt=""
           /></router-link>
         </div>
         <!-- End .logo -->
