@@ -1,6 +1,6 @@
 <template>
   <div class="tokyo_tm_news">
-    <div class="tokyo_tm_title">
+    <div class="contact_title">
       <div class="title_flex">
         <div class="left">
           <span>Réflexologie plantaire</span>
@@ -46,9 +46,15 @@
             <div class="icon"><img class="svg" src="../assets/img/svg/quote.svg" alt="tumb" /></div>
             <p>Les citations de médecins vont ici</p>
           </div>
-          <!-- END QUOTEBOX -->      
+          <!-- END QUOTEBOX -->    
+          <h3 class="title">
+            Une technique qui remonte à la nuit des temps          
+          </h3>  
           <p>
-            Pretend everything is new and that you haven’t seen it frsegsergstrtrhzrsth
+            En Egypte, en 2230 avant JC., dans la nécropole de Saqqarah, on observe une fresque sur le tombeau d'Ankhamahor.
+            En Inde, des cartographies plantaires et des pieds de Vishnu et de Bouddha. En Chine, le traité de 
+            médecine chinoise de l'époque mentionne le Nei Ching qui décrit des actions au niveau des pieds. 
+            Les descendants des Indiens d'Amérique du Nord témoignant de ces pratiques réflexologiques.
           </p>
           <div  v-bind:style="{'text-align': 'center'}" class="image">
             <img v-bind:style="styleBanner" src="../assets/img/hist1.jpg" alt="thumb" />
