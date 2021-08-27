@@ -1,6 +1,6 @@
 <template>
   <div class="tokyo_tm_news">
-    <div class="contact_title">
+    <div class="article_title">
       <div class="title_flex">
         <div class="left">
           <span>Massage Hakim</span>

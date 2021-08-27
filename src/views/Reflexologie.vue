@@ -1,6 +1,6 @@
 <template>
   <div class="tokyo_tm_news">
-    <div class="contact_title">
+    <div class="article_title">
       <div class="title_flex">
         <div class="left">
           <span>Réflexologie plantaire</span>
@@ -15,39 +15,52 @@
       <!-- END DETAILS -->
       
       <div class="main_content ">
-        <div class="descriptions">
-          <ul class="tokyo_tm_news_inner">
-            <!-- image -->
+        <div class="article_portfolio">
+          <ul class="portfolio_list">
             <li>
-            <div class="list_inner">
-              <div class="image">
-                <img src="../assets/img/portfolio/babyFeet.jpg" alt="thumb" />
+              <div class="inner">
+                <div class="entry image">
+                  <img src="../assets/img/portfolio/babyFeet.jpg" alt="thumb" />
+                </div>
               </div>
-            </div>
             </li>
-            <!-- text next to image -->
+            <!-- End li -->
             <li>
-              <p class="bigger">
+              <div class="text">
+                <p>
                 La réflexologie plantaire soulage vos douleurs, vos tensions, votre stress et rééquilibre votre corps.
                 Elle vous prépare au changement de saison, à vous calmer en période d'examens et aide l'organisme 
                 à se débarasser des toxines.
               </p>
-              <p class="bigger">
+              <p>
                 La réflexologie s'intéresse aux points réflexes situés sur les pieds et permet de rééquilibrer les fonctions
                 qui le nécessitent, de se renforcer avec l'avancée des séances par homéostasie.
               </p>
-            </li>  
-    
+              </div>
+              
+            </li>
+            <!-- End li -->
           </ul>
-          <!-- description below image -->
         </div>
         <div class="descriptions"> 
-          <div class="quotebox">
-            <div class="icon"><img class="svg" src="../assets/img/svg/quote.svg" alt="tumb" /></div>
-            <p>Les citations de médecins vont ici</p>
-          </div>
-          <!-- END QUOTEBOX -->    
-          <h3 class="title">
+          <h3 class="article_subtitle">
+            Déroulement d'une séance          
+          </h3>  
+          <p>
+            La séance se déroule dans un environnement calme, la pièce dégage un aspect simple et la nature 
+            y est une invitée de choix. 
+          </p>
+          <p>
+            Vous serez installé en position demi-assise et les pieds nus en face des mains de la réflexologue.
+            Après l'application d'une huile, la séance va se poursuivre par des actions diverses et des 
+            échanges d'informations auront lieu tout au long des 45 minutes nécessaires.
+          </p>
+          <p>
+            Après la séance, il faudra boire plusieurs grands verres d'eau pour atteindre 1 litre dans 
+            les 2 heures qui suivent.
+          </p>
+             
+          <h3 class="article_subtitle">
             Une technique qui remonte à la nuit des temps          
           </h3>  
           <p>
@@ -60,8 +73,20 @@
             <img v-bind:style="styleBanner" src="../assets/img/hist1.jpg" alt="thumb" />
           </div>
           <p>
-            Pretend everything is new and that you haven’t seen it
-          </p>       
+            Docteur William Fitzgerald, Eunice Ingham, Henry Head et Alfons Cornelius sont tous des pionniers qui 
+            ont remis ces techniques en avant. D'autres groupes d'études en médecine manuelle et réflexe se sont 
+            créés plus tard et des recherches sont toujours en cours.
+          </p>
+          <div class="quotebox">
+            <div class="icon"><img class="svg" src="../assets/img/svg/quote.svg" alt="tumb" /></div>
+            <p>Les citations de médecins vont ici</p>
+          </div>
+          <!-- END QUOTEBOX --> 
+          <p>
+            En France, docteur Philippe Malafosse a fait un travail remarquable et décrit dans son livre "Grand 
+            Manuel de la réfléxothérapie" l'interconnection entre le système nerveux, la peau et les phanères 
+            (cheveux, poils et ongles)
+          </p>  
         </div>
         <!-- END DESCRIPTION -->                   
       </div>
