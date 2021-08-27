@@ -28,7 +28,7 @@
           >
             <img
               class="svg"
-              src="../assets/img/svg/briefcase.svg"
+              src="../assets/img/svg/foot.png"
               alt="briefcase"
             />
             <span class="menu_content">Réflexologie plantaire</span></a
@@ -40,7 +40,7 @@
           >
             <img
               class="svg"
-              src="../assets/img/svg/briefcase.svg"
+              src="../assets/img/svg/back.png"
               alt="briefcase"
             />
             <span class="menu_content">Massage Hakim</span></a
@@ -52,7 +52,7 @@
           >
             <img
               class="svg"
-              src="../assets/img/svg/briefcase.svg"
+              src="../assets/img/svg/relaxation.png"
               alt="briefcase"
             />
             <span class="menu_content">Relaxation</span></a
