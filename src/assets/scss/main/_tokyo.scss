@@ -480,11 +480,35 @@ h6 {
 /*---------------------------------------------------*/
 
 .image_legend {
-  text-transform: capitalize;
+  color: #767676;
   font-family: "Montserrat";
   font-size: 13px;
-  color: #767676;
   font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.image_legend a {
+  color: #767676;
+}
+
+.footer {
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: #767676;
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: italic;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.footer a {
+  color: #767676;
 }
 
 /*---------------------------------------------------*/
@@ -1334,7 +1358,6 @@ ul.react-tabs__tab-list {
 .tokyo_tm_news .tokyo_tm_modalbox_news .details {
   width: 100%;
   float: left;
-  margin-bottom: 30px;
   padding: 0;
 }
 .tokyo_tm_modalbox_news .image {

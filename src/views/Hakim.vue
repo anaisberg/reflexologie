@@ -1,6 +1,6 @@
 <template>
   <div class="tokyo_tm_news">
-    <div class="tokyo_tm_title">
+    <div class="contact_title">
       <div class="title_flex">
         <div class="left">
           <span>Massage Hakim</span>
@@ -10,18 +10,8 @@
     </div>
 
     <div class="tokyo_tm_modalbox_news">
-      <div class="image">
-        <img src="../assets/img/thumbs/4-3.jpg" alt="tumb" />
-        <div class="main" :style="{ backgroundImage: 'url(' + popup1 + ')' }"></div>
-      </div>
-      <!-- END IMAGE-->
-  
       <div class="details">
-        <div class="extra">
-          <p class="date">
-            Par <a href="#">Simone Marck</a>
-          </p>
-        </div>
+        <div class="extra"></div>
         <h3 class="title">
           Le massage Hakim du dos                
         </h3>
@@ -30,21 +20,10 @@
   
       <div class="main_content ">
         <div class="descriptions">
-          <p class="bigger">
+          <p>
             Le massage Hakim calme les douleurs aiguës ou chroniques siégeant au niveau de votre dos.
             Cette technique manuelle est réalisable à tous les âges de la vie.
-          </p>
-          <p class="bigger">
-          </p>
-          <p>
-          </p>
-      
-          <div class="quotebox">
-            <div class="icon"><img class="svg" src="../assets/img/svg/quote.svg" alt="tumb" /></div>
-            <p>Les citations de médecins vont ici</p>
-          </div>
-          <!-- END QUOTEBOX -->
-                      
+          </p>                  
           <p>
             En Allemagne, Autriche et Suisse, ce massage est nommé d'apèrs le naturopathe BREUSS, 
             à qui nous devons de l'avoir simplifié tout en lui gardant son efficacité. 
@@ -62,13 +41,11 @@
           </p>
           <div class="image">
             <img src="../assets/img/spine2.jpg" alt="tumb" />
-            <div class="details extra">
-              <p class="date">
-                Photo by 
-                <a href="https://unsplash.com/@moonshadowpress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyce McCown</a> on 
-                <a href="https://unsplash.com/s/photos/chiropractor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-              </p>
-            </div>
+            <p class="image_legend">
+              Photo by 
+              <a href="https://unsplash.com/@moonshadowpress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyce McCown</a> on 
+              <a href="https://unsplash.com/s/photos/chiropractor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
           </div>
           <p>
             Le praticien stimule et éveille les énergies et l'ensemble des systèmes. Cela engendre un effet 
@@ -82,9 +59,17 @@
           <p>
             Le massage étire la colonne vertébrale en douceur et libère les tensions physiques.
           </p>
+          <div class="quotebox">
+            <div class="icon"><img class="svg" src="../assets/img/svg/quote.svg" alt="tumb" /></div>
+            <p>Les citations de médecins vont ici</p>
+          </div>
           <p>
             Pour ce massage, j'utilise une huile au Millepertuis que je prépare moi-même, dont la base est une huile d'olive.
           </p>
+          <!-- END QUOTEBOX -->
+          <div class="footer">
+            <p>Par Simone Marck</p>
+          </div>
         </div>
         <!-- END DESCRIPTION -->
       </div>
