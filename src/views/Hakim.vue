@@ -23,7 +23,7 @@
           </p>
         </div>
         <h3 class="title">
-          Les grandes lignes                 
+          Le massage Hakim du dos                
         </h3>
       </div>
       <!-- END DETAILS -->
@@ -46,11 +46,38 @@
           <!-- END QUOTEBOX -->
                       
           <p>
-            Pretend everything is new and that you haven’t seen it
+            En Allemagne, Autriche et Suisse, ce massage est nommé d'apèrs le naturopathe BREUSS, 
+            à qui nous devons de l'avoir simplifié tout en lui gardant son efficacité. 
           </p>
           <p>
-            Pretend everything is new and that you haven’t seen it
-          </p>               
+            Il s'agit d'un massage dorsal énergétique, pratiqué depuis des millénaires dans les confréries 
+            de guérisseurs Hakim du Moyen-Orient. Ce touché est rythmique et répétitif afin de mettre le corps 
+            au diapason des rythmes naturels. 
+            <br/>
+            Il est à la fois puissant et doux.
+          </p>
+          <p>
+            Le but du massage Hakim est de permettre aux organes et aux systèmes bloqués ou freinés dans 
+            leurs fonctions de retrouver leur vitalité.
+          </p>
+          <div class="image">
+            <img src="../assets/img/spine2.jpg" alt="tumb" />
+          </div>
+          <p>
+            Le praticien stimule et éveille les énergies et l'ensemble des systèmes. Cela engendre un effet 
+            non seulement physique et énergétique mais également psychologique.
+          </p>
+          <p>
+            Il s'agit de massages doux et énergétiques que conduisent non seulement à la régénération de la 
+            colonne vertébrale et des disques inter-vertébraux, mais permettent également une amélioration 
+            du fonctionnement de <b>tous</b> les organes du corps ainsi que la libération des tensions psychiques.
+          </p>
+          <p>
+            Le massage étire la colonne vertébrale en douceur et libère les tensions physiques.
+          </p>
+          <p>
+            Pour ce massage, j'utilise une huile au Millepertuis que je prépare moi-même, dont la base est une huile d'olive.
+          </p>
         </div>
         <!-- END DESCRIPTION -->
       </div>
