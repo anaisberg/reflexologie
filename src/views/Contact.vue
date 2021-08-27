@@ -1,10 +1,10 @@
 <template>
   <div class="tokyo_tm_contact">
-    <div class="contact_title">
+    <div class="article_title">
       <div class="title_flex">
         <div class="left">
           <span>Contactez-moi</span>
-          <h3>Par téléphone</h3>
+          <h3 class="article_subtitle">Par téléphone</h3>
            <p>
             Je prends les rendez-vous et toute autre question par téléphone uniquement : <br />
             06 13 37 64 66
@@ -15,13 +15,13 @@
     </div>
     <!-- End Title -->
 
-    <div class="contact_title">
-      <div class="title_flex">
-        <div class="left">
-          <h3>Plan d'accès</h3>
-        </div>
+    
+    <div class="title_flex">
+      <div class="left article_subtitle">
+        <h3>Plan d'accès</h3>
       </div>
     </div>
+    
 
     <div class="map_wrap">
       <iframe 
