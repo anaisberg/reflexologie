@@ -62,6 +62,13 @@
           </p>
           <div class="image">
             <img src="../assets/img/spine2.jpg" alt="tumb" />
+            <div class="details extra">
+              <p class="date">
+                Photo by 
+                <a href="https://unsplash.com/@moonshadowpress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyce McCown</a> on 
+                <a href="https://unsplash.com/s/photos/chiropractor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+            </div>
           </div>
           <p>
             Le praticien stimule et éveille les énergies et l'ensemble des systèmes. Cela engendre un effet 
