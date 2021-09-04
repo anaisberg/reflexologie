@@ -88,7 +88,10 @@
             (cheveux, poils et ongles)
           </p>  
         </div>
-        <!-- END DESCRIPTION -->                   
+        <!-- END DESCRIPTION --> 
+        <div class="footer">
+          <p>Par Simone Marck</p>
+        </div>                  
       </div>
       <!-- END CONTENT -->
     </div>

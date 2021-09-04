@@ -383,7 +383,8 @@ h6 {
 
 .tokyo_tm_home {
   width: 100%;
-  min-height: 100vh;
+  margin-top: 25vh;
+  margin-bottom: 10vh;
   clear: both;
   display: flex;
   align-items: center;
@@ -442,7 +443,7 @@ h6 {
   font-style: italic;
   font-weight: 500;
   max-width: 450px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .tokyo_tm_home .social {
   width: 100%;
@@ -506,7 +507,6 @@ h6 {
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   color: #767676;
-  display: flex;
   font-family: "Montserrat";
   font-size: 12px;
   font-style: italic;
@@ -583,7 +583,7 @@ h6 {
 .article_subtitle {
   font-size: 23px;
   font-weight: 600;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
 }
 .article_title {
   width: 100%;
@@ -614,6 +614,9 @@ h6 {
 .article_title h3 {
   font-weight: 800;
   font-family: "Montserrat";
+}
+.details p {
+  margin-bottom: 8px;
 }
 
 .article_portfolio .portfolio_filter ul {
@@ -1456,7 +1459,7 @@ ul.react-tabs__tab-list {
   padding: 0;
 }
 .tokyo_tm_modalbox_news .image {
-  max-height: 450px;
+  height: fit-content;
   margin-bottom: 15px;
 }
 .tokyo_tm_modalbox_news .image img {
@@ -1832,9 +1835,6 @@ body.modal {
   .tokyo_tm_contact,
   .tokyo_tm_news {
     padding-top: 170px;
-  }
-  .tokyo_tm_home {
-    padding-bottom: 120px;
   }
   .tokyo_tm_modalbox_about .close a {
     color: #000;

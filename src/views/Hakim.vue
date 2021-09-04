@@ -25,7 +25,7 @@
             Cette technique manuelle est réalisable à tous les âges de la vie.
           </p>                  
           <p>
-            En Allemagne, Autriche et Suisse, ce massage est nommé d'apèrs le naturopathe BREUSS, 
+            En Allemagne, Autriche et Suisse, ce massage est nommé d'après le naturopathe BREUSS, 
             à qui nous devons de l'avoir simplifié tout en lui gardant son efficacité. 
           </p>
           <p>
@@ -52,7 +52,7 @@
             non seulement physique et énergétique mais également psychologique.
           </p>
           <p>
-            Il s'agit de massages doux et énergétiques que conduisent non seulement à la régénération de la 
+            Il s'agit de massages doux et énergiques qui conduisent non seulement à la régénération de la 
             colonne vertébrale et des disques inter-vertébraux, mais permettent également une amélioration 
             du fonctionnement de <b>tous</b> les organes du corps ainsi que la libération des tensions psychiques.
           </p>

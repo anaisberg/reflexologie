@@ -6,7 +6,7 @@
           <span>Contactez-moi</span>
           <h3 class="article_subtitle">Par téléphone</h3>
            <p>
-            Je prends les rendez-vous et toute autre question par téléphone uniquement : <br />
+            Je prends les rendez-vous et je réponds à vos questions par téléphone uniquement : <br />
             06 13 37 64 66
           </p>
           <br />

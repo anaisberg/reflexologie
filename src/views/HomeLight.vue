@@ -92,7 +92,7 @@
             &copy; {{ new Date().getFullYear() }} Simone Marck
             <br />2 rue de la Trinité, 
             <br />67190 Mutzig
-            <br />02 13 37 64 66
+            <br />06 13 37 64 66
           </p>
         </div>
         <!-- End copyright -->
