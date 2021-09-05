@@ -36,11 +36,9 @@
             <p>Comme tu diriges ton souffle, tu diriges ta vie <br/>- Proverbe indien</p>
           </div>
           <div class="image">
-            <img src="../assets/img/spine2.jpg" alt="tumb" />
+            <img src="../assets/img/bowl.jpg" alt="tumb" />
             <p class="image_legend">
-              Photo by 
-              <a href="https://unsplash.com/@moonshadowpress?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyce McCown</a> on 
-              <a href="https://unsplash.com/s/photos/chiropractor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              Photo par Simone Marck 
             </p>
           </div>
           <div class="quotebox">
@@ -75,10 +73,6 @@ export default {
       src2: require("../assets/img/news/2.jpg"),
       src3: require("../assets/img/news/3.jpg"),
       src4: require("../assets/img/news/4.jpg"),
-      popup1: require("../assets/img/news/1.jpg"),
-      popup2: require("../assets/img/news/2.jpg"),
-      popup3: require("../assets/img/news/3.jpg"),
-      popup4: require("../assets/img/news/4.jpg"),
 
       isVisible: false,
       isVisible2: false,

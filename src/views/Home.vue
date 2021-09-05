@@ -18,7 +18,7 @@
       <!-- End .details -->
     </div>
   </div>
-  <div class="details">
+  <div class="home_details">
     <h3 class="article_subtitle">
       Qui suis-je ?              
     </h3>

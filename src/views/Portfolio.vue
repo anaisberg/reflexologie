@@ -7,51 +7,6 @@
           <h3>Creative Portfolio</h3>
         </div>
         <!-- End Left -->
-        <div class="portfolio_filter">
-          <ul>
-            <li>
-              <a
-                v-on:click="activetab = 1"
-                :class="[activetab === 1 ? 'active' : '']"
-                >All</a
-              >
-            </li>
-            <!-- End All for tabcontent 1 -->
-            <li>
-              <a
-                v-on:click="activetab = 2"
-                :class="[activetab === 2 ? 'active' : '']"
-                >Vimeo</a
-              >
-            </li>
-            <!-- End Vimeo tabcontent 2 -->
-            <li>
-              <a
-                v-on:click="activetab = 3"
-                :class="[activetab === 3 ? 'active' : '']"
-                >Youtube</a
-              >
-            </li>
-            <!-- End .Youtube tabcontent 3 -->
-            <li>
-              <a
-                v-on:click="activetab = 4"
-                :class="[activetab === 4 ? 'active' : '']"
-                >Mix</a
-              >
-            </li>
-            <!-- End Mix tabcontent 4 -->
-            <li>
-              <a
-                v-on:click="activetab = 5"
-                :class="[activetab === 5 ? 'active' : '']"
-                >Gallery</a
-              >
-            </li>
-            <!-- End Gallery tabcontent 5 -->
-          </ul>
-        </div>
-        <!-- End .portfolio-filter -->
       </div>
     </div>
     <!-- End tokyo_tm_title -->
@@ -179,72 +134,19 @@
         activetab: 1,
         allItems: [
           {
-            src: "https://vimeo.com/43338103",
-            thumb: require("../assets/img/portfolio/5.jpg"),
+            src: "../assets/img/portfolio/ext.jpeg",
+            thumb: require("../assets/img/portfolio/ext.jpeg"),
           },
           {
-            src: require("../assets/img/portfolio/2.jpg"),
-            thumb: require("../assets/img/portfolio/2.jpg"),
+            src: require("../assets/img/portfolio/int.jpeg"),
+            thumb: require("../assets/img/portfolio/int.jpeg"),
           },
           {
-            src: "https://youtu.be/ZOoVOfieAF8",
-            thumb: require("../assets/img/portfolio/4.jpg"),
+            thumb: require("../assets/img/portfolio/gallet.jpg"),
           },
           {
-            src: require("../assets/img/portfolio/3.jpg"),
-            thumb: require("../assets/img/portfolio/3.jpg"),
-          },
-        ],
-        vimeoItems: [
-          {
-            src: "https://vimeo.com/246115326",
-            thumb: require("../assets/img/portfolio/4.jpg"),
-          },
-          {
-            src: "https://vimeo.com/43338103",
-            thumb: require("../assets/img/portfolio/5.jpg"),
-          },
-        ],
-        youtubeItems: [
-          {
-            src: "https://youtu.be/ZOoVOfieAF8",
-            thumb: require("../assets/img/portfolio/2.jpg"),
-          },
-          {
-            src: "https://youtu.be/ZOoVOfieAF8",
-            thumb: require("../assets/img/portfolio/3.jpg"),
-          },
-        ],
-        mixItems: [
-          {
-            src: "https://vimeo.com/43338103",
-            thumb: require("../assets/img/portfolio/5.jpg"),
-          },
-          {
-            src: "https://youtu.be/ZOoVOfieAF8",
-            thumb: require("../assets/img/portfolio/4.jpg"),
-          },
-          {
-            src: require("../assets/img/portfolio/3.jpg"),
-            thumb: require("../assets/img/portfolio/3.jpg"),
-          },
-        ],
-        galleryItems: [
-          {
-            src: require("../assets/img/portfolio/2.jpg"),
-            thumb: require("../assets/img/portfolio/2.jpg"),
-          },
-          {
-            src: require("../assets/img/portfolio/3.jpg"),
-            thumb: require("../assets/img/portfolio/3.jpg"),
-          },
-          {
-            src: require("../assets/img/portfolio/4.jpg"),
-            thumb: require("../assets/img/portfolio/4.jpg"),
-          },
-          {
-            src: require("../assets/img/portfolio/5.jpg"),
-            thumb: require("../assets/img/portfolio/5.jpg"),
+            src: "../assets/img/portfolio/gouttes.jpg",
+            thumb: require("../assets/img/portfolio/gouttes.jpg"),
           },
         ],
         index: null,
