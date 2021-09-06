@@ -5,8 +5,7 @@
       <div class="leftpart_inner">
         <div class="logo">
           <router-link to="/"
-            ><img src="../assets/img/logo/logo.png" alt=""
-          /></router-link>
+            ></router-link>
         </div>
         <!-- End .logo -->
         <div class="menu">
@@ -74,7 +73,7 @@
             v-on:click="activetab = 6"
             :class="[activetab === 6 ? 'active' : '']"
           >
-            <img class="svg" src="../assets/img/svg/avatar.svg" alt="avatar" />
+            <img class="svg" src="../assets/img/svg/question.svg" alt="avatar" />
             <span class="menu_content">Questions - Réponses</span></a
           >
           <!-- End Answers -->

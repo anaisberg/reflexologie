@@ -1,10 +1,9 @@
 <template>
   <div class="tokyo_tm_portfolio">
-    <div class="tokyo_tm_title">
+    <div class="article_title">
       <div class="title_flex">
         <div class="left">
-          <span>Portfolio</span>
-          <h3>Creative Portfolio</h3>
+          <span>en images</span>
         </div>
         <!-- End Left -->
       </div>

@@ -10,39 +10,21 @@
     </div>
     <!-- END TITLE -->
     <div class="tokyo_tm_modalbox_news">
-
-      <div class="details"><div class="extra"></div></div>
-      <!-- END DETAILS -->
       
       <div class="main_content ">
-        <div class="article_portfolio">
-          <ul class="portfolio_list">
-            <li>
-              <div class="inner">
-                <div class="entry image">
-                  <img src="../assets/img/portfolio/babyFeet.jpg" alt="thumb" />
-                </div>
-              </div>
-            </li>
-            <!-- End li -->
-            <li>
-              <div class="text">
-                <p>
-                La réflexologie plantaire soulage vos douleurs, vos tensions, votre stress et rééquilibre votre corps.
-                Elle vous prépare au changement de saison, à vous calmer en période d'examens et aide l'organisme 
-                à se débarasser des toxines.
-              </p>
-              <p>
-                La réflexologie s'intéresse aux points réflexes situés sur les pieds et permet de rééquilibrer les fonctions
-                qui le nécessitent, de se renforcer avec l'avancée des séances par homéostasie.
-              </p>
-              </div>
-              
-            </li>
-            <!-- End li -->
-          </ul>
-        </div>
         <div class="descriptions"> 
+          <p>
+            La réflexologie plantaire soulage vos douleurs, vos tensions, votre stress et rééquilibre votre corps.
+            Elle vous prépare au changement de saison, à vous calmer en période d'examens et aide l'organisme 
+            à se débarasser des toxines.
+          </p>
+          <p>
+            La réflexologie s'intéresse aux points réflexes situés sur les pieds et permet de rééquilibrer les fonctions
+            qui le nécessitent, de se renforcer avec l'avancée des séances par homéostasie.
+          </p>
+          <div  v-bind:style="{'text-align': 'center'}" class="article_image">
+            <img src="../assets/img/portfolio/ext.jpeg" alt="thumb" />
+          </div>
           <h3 class="article_subtitle">
             Déroulement d'une séance          
           </h3>  
@@ -69,8 +51,8 @@
             médecine chinoise de l'époque mentionne le Nei Ching qui décrit des actions au niveau des pieds. 
             Les descendants des Indiens d'Amérique du Nord témoignant de ces pratiques réflexologiques.
           </p>
-          <div  v-bind:style="{'text-align': 'center'}" class="image">
-            <img v-bind:style="styleBanner" src="../assets/img/hist1.jpg" alt="thumb" />
+          <div  v-bind:style="{'text-align': 'center'}" class="article_image">
+            <img src="../assets/img/hist1.jpg" alt="thumb" />
           </div>
           <p>
             Docteur William Fitzgerald, Eunice Ingham, Henry Head et Alfons Cornelius sont tous des pionniers qui 
@@ -122,10 +104,6 @@ export default {
       isVisible2: false,
       isVisible3: false,
       isVisible4: false,
-      styleBanner: {
-        maxHeight: '200px',
-        fontSize: '13px'
-      }
     };
   },
   methods: {

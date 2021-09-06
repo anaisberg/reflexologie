@@ -4,8 +4,7 @@
       <div class="leftpart_inner">
         <div class="logo">
           <router-link to="/"
-            ><img src="../assets/img/logo/dark.png" alt="brand"
-          /></router-link>
+            ></router-link>
         </div>
         <div class="copyright">
           <p>
