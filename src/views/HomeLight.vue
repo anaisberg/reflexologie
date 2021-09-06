@@ -61,28 +61,16 @@
             v-on:click="activetab = 5"
             :class="[activetab === 5 ? 'active' : '']"
           >
-            <img
-              class="svg"
-              src="../assets/img/svg/briefcase.svg"
-              alt="briefcase"
-            />
-            <span class="menu_content">En pratique</span></a
-          >
-          <!-- End Pratique -->
-          <a
-            v-on:click="activetab = 6"
-            :class="[activetab === 6 ? 'active' : '']"
-          >
             <img class="svg" src="../assets/img/svg/question.svg" alt="avatar" />
             <span class="menu_content">Questions - Réponses</span></a
           >
           <!-- End Answers -->
           <a
-            v-on:click="activetab = 7"
-            :class="[activetab === 7 ? 'active' : '']"
+            v-on:click="activetab = 6"
+            :class="[activetab === 6 ? 'active' : '']"
           >
             <img class="svg" src="../assets/img/svg/mail.svg" alt="mail" />
-            <span class="menu_content"> Contactez-moi</span></a
+            <span class="menu_content">Contactez-moi</span></a
           >
           <!-- End Contact -->
         </div>
@@ -121,14 +109,10 @@
             </div>
             <!-- End Relaxation tabcontent  -->
             <div v-if="activetab === 5" class="tabcontent">
-              <Portfolio />
+              <FAQ />
             </div>
             <!-- End Answers tabcontent  -->
             <div v-if="activetab === 6" class="tabcontent">
-              <FAQ />
-            </div>
-            <!-- End Portfolio tabcontent -->
-            <div v-if="activetab === 7" class="tabcontent">
               <Contact />
             </div>
             <!-- End Contact tabcontent -->
