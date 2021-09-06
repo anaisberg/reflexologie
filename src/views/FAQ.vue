@@ -5,9 +5,9 @@
     </div>
 
     <Question :question="'Quels sont les tarifs pratiqués ?'" 
-              :answer1="'1 séance de réflexologie plantaire : 35€, ' +  
-              '1 massage Hakim : 40€, ' + 
-              '1 séance de relaxation : 20€'" />
+              :answer1="'1 séance de réflexologie plantaire : 35€ '"
+              :answer2="'1 massage Hakim : 40€'"
+              :answer3="'1 séance de relaxation : 20€'" />
     <Question :question="'Les séances sont-elles remboursées ?'" 
               :answer1="'Le remboursement des séances de réflexologie est possible selon votre mutuelle (voir votre contrat).'" />
     <Question :question="'Quelle est la durée d\'une séance ?'" 
