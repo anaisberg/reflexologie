@@ -131,13 +131,11 @@
   import Hakim from "../views/Hakim";
   import Reflexologie from "../views/Reflexologie";
   import Relaxation from "../views/Relaxation";
-  import Portfolio from "../views/Portfolio";
   export default {
     components: {
       FAQ,
       Home,
       Hakim,
-      Portfolio,
       Reflexologie,
       Relaxation,
       Contact,
