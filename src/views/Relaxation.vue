@@ -52,6 +52,7 @@
           </p>
           <!-- END QUOTEBOX -->
           <div class="footer">
+            <div class="details"><div class="extra"></div></div>
             <p>Par Simone Marck</p>
           </div>
         </div>

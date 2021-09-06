@@ -11,6 +11,8 @@
     <!-- END TITLE -->
     <div class="tokyo_tm_modalbox_news">
       
+      <div class="details"><div class="extra"></div></div>
+
       <div class="main_content ">
         <div class="descriptions"> 
           <p>
@@ -59,11 +61,7 @@
             ont remis ces techniques en avant. D'autres groupes d'études en médecine manuelle et réflexe se sont 
             créés plus tard et des recherches sont toujours en cours.
           </p>
-          <div class="quotebox">
-            <div class="icon"><img class="svg" src="../assets/img/svg/quote.svg" alt="tumb" /></div>
-            <p>Les citations de médecins vont ici</p>
-          </div>
-          <!-- END QUOTEBOX --> 
+        
           <p>
             En France, docteur Philippe Malafosse a fait un travail remarquable et décrit dans son livre "Grand 
             Manuel de la réfléxothérapie" l'interconnection entre le système nerveux, la peau et les phanères 
@@ -72,6 +70,7 @@
         </div>
         <!-- END DESCRIPTION --> 
         <div class="footer">
+          <div class="details"><div class="extra"></div></div>
           <p>Par Simone Marck</p>
         </div>                  
       </div>
