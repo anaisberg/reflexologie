@@ -63,59 +63,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      isActive: false,
-      isActive2: false,
-      isActive3: false,
-      isActive4: false,
-      src1: require("../assets/img/news/1.jpg"),
-      src2: require("../assets/img/news/2.jpg"),
-      src3: require("../assets/img/news/3.jpg"),
-      src4: require("../assets/img/news/4.jpg"),
-
-      isVisible: false,
-      isVisible2: false,
-      isVisible3: false,
-      isVisible4: false,
-    };
-  },
-  methods: {
-    showModal: function() {
-      this.isActive = true;
-      this.isVisible = true;
-    },
-    showModal2: function() {
-      this.isActive2 = true;
-      this.isVisible2 = true;
-    },
-    showModal3: function() {
-      this.isActive3 = true;
-      this.isVisible3 = true;
-    },
-    showModal4: function() {
-      this.isActive4 = true;
-      this.isVisible4 = true;
-    },
-    closeModal: function() {
-      this.isActive = false;
-      this.isVisible = false;
-    },
-    closeModal2: function() {
-      this.isActive2 = false;
-      this.isVisible2 = false;
-    },
-    closeModal3: function() {
-      this.isActive3 = false;
-      this.isVisible3 = false;
-    },
-    closeModal4: function() {
-      this.isActive4 = false;
-      this.isVisible4 = false;
-    },
-  },
-};
+export default {};
 </script>
 
 <style lang="scss" scoped></style>

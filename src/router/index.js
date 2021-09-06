@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -17,17 +16,8 @@ const routes = [
       import("../views/HomeLight.vue"),
   },
   {
-    path: "/home-light",
-    name: "HomeLight",
-    meta: {
-      title: 'Accueil'
-    },
-    component: () =>
-      import("../views/HomeLight.vue"),
-  },
-  {
     path: '*',
-    name: NotFound,
+    name: "Accueil",
     meta: {
       title: 'Accueil'
     },

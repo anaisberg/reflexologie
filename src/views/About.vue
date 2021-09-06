@@ -1,7 +1,7 @@
 <template>
   <div class="tokyo_tm_about">
     <div class="about_image">
-      <img src="../assets/img/slider/1.jpg" alt="à propos" />
+      
     </div>
     <!-- End .about_image -->
 
