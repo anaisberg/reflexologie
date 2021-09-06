@@ -59,10 +59,7 @@
           <p>
             Le massage étire la colonne vertébrale en douceur et libère les tensions physiques.
           </p>
-          <div class="quotebox">
-            <div class="icon"><img class="svg" src="../assets/img/svg/quote.svg" alt="tumb" /></div>
-            <p>Les citations de médecins vont ici</p>
-          </div>
+
           <p>
             Pour ce massage, j'utilise une huile au Millepertuis que je prépare moi-même, dont la base est une huile d'olive.
           </p>
