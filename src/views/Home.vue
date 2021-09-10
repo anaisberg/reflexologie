@@ -50,7 +50,7 @@
   export default {
     data() {
       return {
-        src1: require("../assets/img/simone1.jpg"),
+        src1: require("../assets/img/simone2.jpeg"),
       };
     },
   };
