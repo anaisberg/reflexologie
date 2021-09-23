@@ -80,6 +80,11 @@
             <br />2 rue de la Trinité, 
             <br />67190 Mutzig
             <br />06 13 37 64 66
+            <br /><a v-on:click="activetab = 7" :class="[activetab === 7 ? 'active' : '']">
+              <img class="svg" src="../assets/img/svg/mail.svg" alt="mail" />
+              <span class="menu_content">Crédits</span>
+            </a>
+          <!-- End Credits -->
           </p>
         </div>
         <!-- End copyright -->
@@ -126,6 +131,7 @@
 
 <script>
   import Contact from "../views/Contact";
+  import Credits from "../views/Credits";
   import Home from "../views/Home";
   import FAQ from "../views/FAQ";
   import Hakim from "../views/Hakim";
@@ -139,6 +145,7 @@
       Reflexologie,
       Relaxation,
       Contact,
+      Credits,
     },
     data() {
       return {
