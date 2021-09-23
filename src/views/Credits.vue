@@ -24,9 +24,9 @@
             Toute reproduction partielle ou totale du contenu de ce site est soumise à une autorisation 
             préalable de la part de son éditrice.
           </p>
-          <h3 class="article_subtitle">
+          <h4 class="paragraphe_title">
             Editeur       
-          </h3> 
+          </h4> 
           <p>
             Simone Marck
             <br />2, rue de la Trinité
@@ -37,15 +37,9 @@
             <br />Code NAF [.....]
             <br />
           </p>
-          <h3 class="article_subtitle">
-            Responsable éditorial       
-          </h3> 
-          <p>
-            Simone Marck
-          </p>
-          <h3 class="article_subtitle">
+          <h4 class="paragraphe_title">
             Crédits       
-          </h3> 
+          </h4> 
           <p>
             <b>Textes</b>
             <br />Éliane Autran
@@ -62,9 +56,9 @@
             <br />Tél. : 06 26 63 96 58
             <br />Courriel : anais.schlienger@lilo.org
          </p>
-          <h3 class="article_subtitle">
+          <h4 class="paragraphe_title">
             Propriété intellectuelle         
-          </h3>  
+          </h4>  
           <p>
            L'éditeur du site est titulaire exclusif de tous les droits de propriété intellectuelle 
            sur les contenus du site www.eliane-autran.fr. Le code de la propriété intellectuelle interdit 
@@ -73,9 +67,9 @@
            que ce soit, sans le consentement de l'éditeur du site est illicite et constitue une 
            contrefaçon sanctionnée par les articles 425 et suivants du Code pénal.
           </p>
-          <h3 class="article_subtitle">
+          <h4 class="paragraphe_title">
             Informatique et libertés        
-          </h3> 
+          </h4> 
           <p>
             Conformément aux préconisations de la Cnil et à la loi Informatique et Libertés n° 78-17 
             du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous disposez 
