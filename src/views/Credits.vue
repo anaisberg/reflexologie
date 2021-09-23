@@ -29,12 +29,13 @@
           </h3> 
           <p>
             Simone Marck
-            2, rue de la Trinité
-            67190 Mutzig, France
-            Tél. : 06 13 37 64 66
+            <br />2, rue de la Trinité
+            <br />67190 Mutzig, France
+            <br />Tél. : 06 13 37 64 66
 
-            Numéro de Siret [.....]
-            Code NAF [.....]
+            <br /><br />Numéro de Siret [.....]
+            <br />Code NAF [.....]
+            <br />
           </p>
           <h3 class="article_subtitle">
             Responsable éditorial       
@@ -47,21 +48,20 @@
           </h3> 
           <p>
             <b>Textes</b>
-            Éliane Autran
+            <br />Éliane Autran
 
-            <b>Photographies</b>
-            Simone Marck
-            Anaïs Schlienger
-            ou mentionné en légende si autre
+            <br /><br /><b>Photographies</b>
+            <br />Simone Marck
+            <br />Anaïs Schlienger
+            <br />ou mentionné en légende si autre
 
-            <b>Conception-réalisation</b>
-            Anaïs Schlienger
-            270 rue Saint-Jacques
-            75005 Paris, France
-            Tél. : 06 26 63 96 58
-            Courriel : anais.schlienger@lilo.org
+            <br /><br /><b>Conception-réalisation</b>
+            <br />Anaïs Schlienger
+            <br />270 rue Saint-Jacques
+            <br />75005 Paris, France
+            <br />Tél. : 06 26 63 96 58
+            <br />Courriel : anais.schlienger@lilo.org
          </p>
-          
           <h3 class="article_subtitle">
             Propriété intellectuelle         
           </h3>  
