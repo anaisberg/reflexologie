@@ -80,12 +80,13 @@
             <br />2 rue de la Trinité, 
             <br />67190 Mutzig
             <br />06 13 37 64 66
-            <br /><a v-on:click="activetab = 7" :class="[activetab === 7 ? 'active' : '']">
-              <img class="svg" src="../assets/img/svg/mail.svg" alt="mail" />
-              <span class="menu_content">Crédits</span>
-            </a>
-          <!-- End Credits -->
           </p>
+          <div class="menu">
+            <a v-on:click="activetab = 7" :class="[activetab === 7 ? 'active' : '']">
+            <span class="menu_content">Crédits</span>
+          </a>
+          <!-- End Credits -->
+          </div>
         </div>
         <!-- End copyright -->
       </div>
@@ -119,6 +120,10 @@
             <!-- End Answers tabcontent  -->
             <div v-if="activetab === 6" class="tabcontent">
               <Contact />
+            </div>
+            <!-- End Contact tabcontent -->
+            <div v-if="activetab === 7" class="tabcontent">
+              <Credits />
             </div>
             <!-- End Contact tabcontent -->
           </div>
