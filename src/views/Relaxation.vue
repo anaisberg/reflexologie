@@ -48,7 +48,7 @@
           </div>
           <p>
             Cette méthode permet de diminuer ou de supprimer des troubles d'origine psychologique ou physiologiques.
-            Cette technique améliore la quilité de vie. 
+            Cette technique améliore la qualité de vie. 
           </p>
           <!-- END QUOTEBOX -->
           <div class="footer">
