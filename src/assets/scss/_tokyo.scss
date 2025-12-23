@@ -2143,10 +2143,10 @@ body.modal {
   padding: 70px;
   height: 650px;
   overflow-y: auto;
-  @media screen and(max-width:991px) {
+  @media screen and (max-width:991px) {
     padding: 50px 30px;
   }
-  @media screen and(max-width:575px) {
+  @media screen and (max-width:575px) {
     padding: 35px 20px;
     height: 470px;
   }
