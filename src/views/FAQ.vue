@@ -6,9 +6,10 @@
 
     <Question
       :question="'Quels sont les tarifs pratiqués ?'"
-      :answer1="'1 séance de réflexologie plantaire : 40€ '"
+      :answer1="'1 séance de réflexologie plantaire : 50€ '"
       :answer2="'1 massage Hakim : 40€'"
-      :answer3="'1 séance de relaxation : 20€'"
+      :answer3="'1 massage Shirotchmapi : 50€'"
+      :answer4="'1 séance de relaxation : 20€'"
     />
     <Question
       :question="'Les séances sont-elles remboursées ?'"
