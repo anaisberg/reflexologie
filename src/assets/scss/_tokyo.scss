@@ -47,6 +47,12 @@ img.svg {
   width: 15px;
   height: 15px;
 }
+/* Override menu icon size and visibility */
+.tokyo_tm_all_wrap .leftpart .menu a img.svg {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #6f6f6f;

@@ -51,8 +51,8 @@
           >
             <img
               class="svg"
-              src="../assets/img/svg/back.png"
-              alt="back"
+              src="../assets/img/svg/elephant.svg"
+              alt="elephant"
             />
             <span class="menu_content">Massage Shirotchampi</span></a
           >
