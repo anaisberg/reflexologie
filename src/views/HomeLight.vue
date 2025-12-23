@@ -45,9 +45,21 @@
             <span class="menu_content">Massage Hakim</span></a
           >
           <!-- End Hakim -->
-          <a
+           <a
             v-on:click="activetab = 4"
             :class="[activetab === 4 ? 'active' : '']"
+          >
+            <img
+              class="svg"
+              src="../assets/img/svg/back.png"
+              alt="back"
+            />
+            <span class="menu_content">Massage Shirotchampi</span></a
+          >
+          <!-- End SHIROTCHAMPI -->
+          <a
+            v-on:click="activetab = 5"
+            :class="[activetab === 5 ? 'active' : '']"
           >
             <img
               class="svg"
@@ -58,16 +70,16 @@
           >
           <!-- End Relaxation -->
           <a
-            v-on:click="activetab = 5"
-            :class="[activetab === 5 ? 'active' : '']"
+            v-on:click="activetab = 6"
+            :class="[activetab === 6 ? 'active' : '']"
           >
             <img class="svg" src="../assets/img/svg/question.svg" alt="avatar" />
             <span class="menu_content">Questions - Réponses</span></a
           >
           <!-- End Answers -->
           <a
-            v-on:click="activetab = 6"
-            :class="[activetab === 6 ? 'active' : '']"
+            v-on:click="activetab = 7"
+            :class="[activetab === 7 ? 'active' : '']"
           >
             <img class="svg" src="../assets/img/svg/mail.svg" alt="mail" />
             <span class="menu_content">Contactez-moi</span></a
@@ -110,19 +122,23 @@
               <Hakim />
             </div>
             <!-- End Hakim tabcontent  -->
-            <div v-if="activetab === 4" class="tabcontent">
+             <div v-if="activetab === 4" class="tabcontent">
+              <Shirotchampi />
+            </div>
+            <!-- End Shirotchampi tabcontent  -->
+            <div v-if="activetab === 5" class="tabcontent">
               <Relaxation />
             </div>
             <!-- End Relaxation tabcontent  -->
-            <div v-if="activetab === 5" class="tabcontent">
+            <div v-if="activetab === 6" class="tabcontent">
               <FAQ />
             </div>
             <!-- End Answers tabcontent  -->
-            <div v-if="activetab === 6" class="tabcontent">
+            <div v-if="activetab === 7" class="tabcontent">
               <Contact />
             </div>
             <!-- End Contact tabcontent -->
-            <div v-if="activetab === 7" class="tabcontent">
+            <div v-if="activetab === 8" class="tabcontent">
               <Credits />
             </div>
             <!-- End Contact tabcontent -->
@@ -140,6 +156,7 @@
   import Home from "../views/Home";
   import FAQ from "../views/FAQ";
   import Hakim from "../views/Hakim";
+  import Shirotchampi from "../views/Shirotchampi";
   import Reflexologie from "../views/Reflexologie";
   import Relaxation from "../views/Relaxation";
   export default {
@@ -147,6 +164,7 @@
       FAQ,
       Home,
       Hakim,
+      Shirotchampi,
       Reflexologie,
       Relaxation,
       Contact,
