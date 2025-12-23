@@ -47,6 +47,11 @@ img.svg {
   width: 15px;
   height: 15px;
 }
+/* Override menu icon size and visibility */
+.tokyo_tm_all_wrap .leftpart .menu a img.svg {
+  width: 24px;
+  height: 24px;
+}
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #6f6f6f;
@@ -2143,10 +2148,10 @@ body.modal {
   padding: 70px;
   height: 650px;
   overflow-y: auto;
-  @media screen and(max-width:991px) {
+  @media screen and (max-width:991px) {
     padding: 50px 30px;
   }
-  @media screen and(max-width:575px) {
+  @media screen and (max-width:575px) {
     padding: 35px 20px;
     height: 470px;
   }

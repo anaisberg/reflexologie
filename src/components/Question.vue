@@ -10,6 +10,9 @@
       <div v-if="answer3" class="answer_inner">
             {{ answer3 }}
       </div> 
+      <div v-if="answer4" class="answer_inner">
+            {{ answer4 }}
+      </div> 
     </div>
 </template>
 
@@ -26,6 +29,7 @@
         answer1: String,
         answer2: String,
         answer3: String,
+        answer4: String,
     },
   };
 </script>
