@@ -51,10 +51,7 @@
 
             <br /><br /><b>Conception-réalisation</b>
             <br />Anaïs Schlienger
-            <br />270 rue Saint-Jacques
-            <br />75005 Paris, France
-            <br />Tél. : 06 26 63 96 58
-            <br />Courriel : anais.schlienger@lilo.org
+            <br />Paris, France
          </p>
           <h4 class="paragraphe_title">
             Propriété intellectuelle         
