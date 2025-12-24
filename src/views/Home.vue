@@ -40,6 +40,20 @@
       J'exerce mes activités dans le cadre d'auto-entrepreneur à mon domicile,
       ou chez la personne lorsqu'elle ne peut se déplacer.
     </p>
+    <div class="home_links">
+      <h4 class="article_subtitle">Découvrir mes pratiques</h4>
+      <ul>
+        <li><router-link to="/reflexologie">Réflexologie plantaire</router-link></li>
+        <li><router-link to="/hakim">Massage Hakim</router-link></li>
+        <li><router-link to="/shirotchampi">Massage Shirotchampi</router-link></li>
+        <li><router-link to="/relaxation">Relaxation</router-link></li>
+      </ul>
+      <h4 class="article_subtitle">Autres</h4>
+      <ul>
+        <li><router-link to="/faq">Questions - Réponses</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li>
+      </ul>
+    </div>
   </div>
 </div>
   
@@ -56,4 +70,39 @@
   };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss" scoped>
+.home_links {
+  display: none; /* hidden by default on large screens */
+  margin-top: 30px;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  li {
+    margin: 6px 0;
+  }
+  a {
+    margin: 0;
+    text-decoration: none;
+    color: #767676;
+    display: inline-block;
+    font-weight: 500;
+    font-family: "Montserrat";
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  a:hover,
+  a.router-link-active,
+  a.router-link-exact-active {
+    color: #000;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .home_links {
+    display: block; /* show on tablets/mobiles */
+  }
+}
+</style>

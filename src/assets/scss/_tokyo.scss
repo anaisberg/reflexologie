@@ -269,7 +269,7 @@ h6 {
   z-index: 10;
   padding: 0px 25px 0px 75px;
   background-color: #fff;
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1040px) {
     box-shadow: 0 0 30px rgba(62, 68, 125, 0.08);
   }
 }
@@ -435,7 +435,7 @@ h6 {
 }
 
 .tokyo_tm_home .details {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 .tokyo_tm_home .details .name {
   font-size: 55px;
@@ -831,7 +831,7 @@ h6 {
   height: 45px;
   filter: invert(1);
   cursor: pointer;
-  @media (max-width: 1200px) {
+  @media (max-width: 1040px) {
     position: absolute;
     filter: invert(0);
     top: 5px;
@@ -1772,7 +1772,7 @@ body.modal {
     padding-left: 400px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1040px) {
   .tokyo_tm_mobile_menu {
     display: block;
   }
@@ -2166,7 +2166,7 @@ button.modal-close {
   text-transform: capitalize;
   cursor: pointer;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1040px) {
   .tokyo_tm_all_wrap .leftpart a.active img {
     filter: invert(0.5);
   }
