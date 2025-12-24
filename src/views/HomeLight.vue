@@ -9,81 +9,60 @@
         </div>
         <!-- End .logo -->
         <div class="menu">
-          <a
-            v-on:click="activetab = 1"
-            :class="[activetab === 1 ? 'active' : '']"
-          >
+          <router-link to="/" exact>
             <img
               class="svg"
               src="../assets/img/svg/home-run.svg"
               alt="homerun"
             />
-            <span class="menu_content">Accueil</span></a
-          >
+            <span class="menu_content">Accueil</span>
+          </router-link>
           <!-- End Home -->
-          <a
-            v-on:click="activetab = 2"
-            :class="[activetab === 2 ? 'active' : '']"
-          >
+          <router-link to="/reflexologie">
             <img
               class="svg"
               src="../assets/img/svg/foot.png"
               alt="foot"
             />
-            <span class="menu_content">Réflexologie plantaire</span></a
-          >
+            <span class="menu_content">Réflexologie plantaire</span>
+          </router-link>
           <!-- End Reflexologie -->
-          <a
-            v-on:click="activetab = 3"
-            :class="[activetab === 3 ? 'active' : '']"
-          >
+          <router-link to="/hakim">
             <img
               class="svg"
               src="../assets/img/svg/back.png"
               alt="back"
             />
-            <span class="menu_content">Massage Hakim</span></a
-          >
+            <span class="menu_content">Massage Hakim</span>
+          </router-link>
           <!-- End Hakim -->
-           <a
-            v-on:click="activetab = 4"
-            :class="[activetab === 4 ? 'active' : '']"
-          >
+          <router-link to="/shirotchampi">
             <img
               class="svg"
               src="../assets/img/svg/elephant.svg"
               alt="elephant"
             />
-            <span class="menu_content">Massage Shirotchampi</span></a
-          >
+            <span class="menu_content">Massage Shirotchampi</span>
+          </router-link>
           <!-- End SHIROTCHAMPI -->
-          <a
-            v-on:click="activetab = 5"
-            :class="[activetab === 5 ? 'active' : '']"
-          >
+          <router-link to="/relaxation">
             <img
               class="svg"
               src="../assets/img/svg/relaxation.png"
               alt="yogi"
             />
-            <span class="menu_content">Relaxation</span></a
-          >
+            <span class="menu_content">Relaxation</span>
+          </router-link>
           <!-- End Relaxation -->
-          <a
-            v-on:click="activetab = 6"
-            :class="[activetab === 6 ? 'active' : '']"
-          >
+          <router-link to="/faq">
             <img class="svg" src="../assets/img/svg/question.svg" alt="avatar" />
-            <span class="menu_content">Questions - Réponses</span></a
-          >
+            <span class="menu_content">Questions - Réponses</span>
+          </router-link>
           <!-- End Answers -->
-          <a
-            v-on:click="activetab = 7"
-            :class="[activetab === 7 ? 'active' : '']"
-          >
+          <router-link to="/contact">
             <img class="svg" src="../assets/img/svg/mail.svg" alt="mail" />
-            <span class="menu_content">Contactez-moi</span></a
-          >
+            <span class="menu_content">Contactez-moi</span>
+          </router-link>
           <!-- End Contact -->
         </div>
         <div class="copyright">
@@ -94,10 +73,10 @@
             <br />06 13 37 64 66
           </p>
           <div class="menu">
-            <a v-on:click="activetab = 7" :class="[activetab === 7 ? 'active' : '']">
-            <span class="menu_content">Crédits</span>
-          </a>
-          <!-- End Credits -->
+            <router-link to="/credits">
+              <span class="menu_content">Crédits</span>
+            </router-link>
+            <!-- End Credits -->
           </div>
         </div>
         <!-- End copyright -->
@@ -110,38 +89,7 @@
       <div class="rightpart_in">
         <div class="tokyo_tm_section">
           <div class="container">
-            <div v-if="activetab === 1" class="tabcontent">
-              <Home />
-            </div>
-            <!-- End Home tabcontent -->
-            <div v-if="activetab === 2" class="tabcontent">
-              <Reflexologie />
-            </div>
-            <!-- End Reflexologie tabcontent  -->
-            <div v-if="activetab === 3" class="tabcontent">
-              <Hakim />
-            </div>
-            <!-- End Hakim tabcontent  -->
-             <div v-if="activetab === 4" class="tabcontent">
-              <Shirotchampi />
-            </div>
-            <!-- End Shirotchampi tabcontent  -->
-            <div v-if="activetab === 5" class="tabcontent">
-              <Relaxation />
-            </div>
-            <!-- End Relaxation tabcontent  -->
-            <div v-if="activetab === 6" class="tabcontent">
-              <FAQ />
-            </div>
-            <!-- End Answers tabcontent  -->
-            <div v-if="activetab === 7" class="tabcontent">
-              <Contact />
-            </div>
-            <!-- End Contact tabcontent -->
-            <div v-if="activetab === 8" class="tabcontent">
-              <Credits />
-            </div>
-            <!-- End Contact tabcontent -->
+            <router-view />
           </div>
         </div>
       </div>
@@ -151,31 +99,9 @@
 </template>
 
 <script>
-  import Contact from "../views/Contact";
-  import Credits from "../views/Credits";
-  import Home from "../views/Home";
-  import FAQ from "../views/FAQ";
-  import Hakim from "../views/Hakim";
-  import Shirotchampi from "../views/Shirotchampi";
-  import Reflexologie from "../views/Reflexologie";
-  import Relaxation from "../views/Relaxation";
   export default {
-    components: {
-      FAQ,
-      Home,
-      Hakim,
-      Shirotchampi,
-      Reflexologie,
-      Relaxation,
-      Contact,
-      Credits,
-    },
-    data() {
-      return {
-        activetab: 1,
-      };
-    },
   };
+
 </script>
 
 <style lang="scss" scoped></style>
