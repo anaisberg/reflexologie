@@ -22,7 +22,8 @@
         'auxquelles il faut ajouter le temps de faire connaissance et le temps de s\'installer.'
       "
       :answer2="'Massage Hakim : le massage dure environ 25 minutes.'"
-      :answer3="'Relaxation : la séance varie entre 20 et 30 minutes.'"
+      :answer3="'Massage Shirotchampi : le massage dure environ 1 heure.'"
+      :answer4="'Relaxation : la séance varie entre 20 et 30 minutes.'"
     />
     <Question
       :question="'Peut-on offrir des séances ?'"
